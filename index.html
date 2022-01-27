@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>mi primera web</title>
-</head>
-<body>
-    <form> 
-        <label for="nombre">nombre</label>
-        <input type="file" id="nombre" name="nombre" placeholder="holi"/> 
-        <br>
-        <br>
+    <style>
+      table,
+      th,
+      td {
+        border: 4px solid purple;
+        padding: 10px;
+        margin: 100px;
 
-        <label for="nombre">nombre</label>
-        <input type="time" id="nombre" name="nombre" placeholder="holi"/> 
-        <br>
-        <br>
-        <textarea id="comentario"></textarea>
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rosas</td>
+          <td>$ 5.000</td>
+        </tr>
+        <tr>
+          <td>Girasoles</td>
+          <td>$ 10.000</td>
+        </tr>
+        <tr>
+          <td>Girasoles y rosas</td>
+          <td>$ 12.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td><strong>Total</strong></td>
+        <td><strong>$ 27.000</strong></td>
+      </tfoot>
+    </table>
+    <!-- ul es lista no ordenada, li item de la lista y ol lista ordenada-->
+    <ul>
+      <li>punto 1</li>
+      <li>punto 2</li>
+      <li>punto 3</li>
+    </ul>
+    <ol>
+      <li value="30">punto 1</li>
+      <li>
+        <ol>
+          <li style="list-style-type: lower-alpha">sub elemento 1</li>
+          <li style="list-style-type: lower-alpha">sub elemento 2</li>
+          <li style="list-style-type: lower-alpha">sub elemento 3</li>
+        </ol>
+      </li>
+      <li>punto 2</li>
+      <li>punto 3</li>
+    </ol>
 
-
-
+    <form action="/formulario" method="post">
+      <label for="nombre">Nombre</label>
+      <input
+        value="sonrisa"
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Holi deja tu nombre"
+      />
+      <br />
+      <br />
+      <label for="apellido">Apellido</label>
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Holi deja tu apellido"
+      />
+      <br />
+      <br />
+      <label for="comentario">Comentario</label>
+      <textarea
+        cols="50"
+        rows="10"
+        id="comentario"
+        placeholder="Holi deja tu comentario"
+        name="comentario"
+      >
+holi deja tu comentario</textarea
+      >
+      <br />
+      <br />
+      <button type="button">button</button>
+      <button type="reset">reset</button>
+      <button type="submit">submit</button>
     </form>
     <h1>mi primer heading</h1>
     <h2>mi segundo heading</h2>
@@ -25,18 +104,24 @@
     <h4>mi segundo heading</h4>
     <h5>mi segundo heading</h5>
     <h6>mi segundo heading</h6>
-    <p> te quiero bebé</p>
-    <hr>
+    <p>te quiero bebé</p>
+    <hr />
     <h2>ejemplo</h2>
-    <hr/>
+    <hr />
     <p>ejemplo</p>
-    <!-- para dejar un comentario -->   
-    este texto<span style="color:purple"> me siento muy feliz cada vez que voy a correr, me siento muy poderosa, vital y alegre </span> <br> <br> Hoy extrañe a helen cuando vi la hora y no llegó a contarme lo terrible que fue su día en el trabajo, siempre lo hace.
+    <!-- para dejar un comentario -->
+    este texto<span style="color: purple">
+      me siento muy feliz cada vez que voy a correr, me siento muy poderosa,
+      vital y alegre
+    </span>
+    <br />
+    <br />
+    Hoy extrañe a helen cuando vi la hora y no llegó a contarme lo terrible que
+    fue su día en el trabajo, siempre lo hace.
 
     <a target="_blank" href="https://www.google.com.co"> ir a google </a>
 
-    <span></span> <br> <img src="img/rosa.jpeg" width="200"/>
-   
-  
-</body>
+    <span></span> <br />
+    <img src="img/rosa.jpeg" width="200" />
+  </body>
 </html>

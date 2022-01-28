@@ -10,8 +10,10 @@
   - [Git/Github](https://youtu.be/hWglK8nWh60) 26m
   - [Cheatsheet](https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf)
 
+- Visual studio code
 
 ## 1. Web básico
+
 - HTML
   - [Tutorial HTML](https://youtu.be/watch?v=MJkdaVFHrto) 1h33m
   - [Referencia](https://developer.mozilla.org/es/docs/Web/HTML/Element)
@@ -23,6 +25,5 @@
 - Projecto práctico: 5h
   - Página simple con html/css
   - Intentar replicar [Demo Bauer](https://demo.bauer-ec.de/)
-
 
 ### 2.1. Flexbox

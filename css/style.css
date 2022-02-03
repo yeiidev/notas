@@ -1,0 +1,20 @@
+#titulo {
+    color: indigo;
+}
+p.texto {
+    color: indianred;
+}
+p.especial{
+    color: rgb(47, 207, 247)
+}
+div p {
+    color:darkred;
+}
+div h2, div h3 {
+    color:yellow
+}
+*{
+    font-size: 30px;
+    color: black;
+}
+/* esto es un comentario*/
